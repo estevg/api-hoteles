@@ -9,7 +9,7 @@ const PictureSchema = new mongoose.Schema({
   const HotelSchema = new mongoose.Schema({
     nombre: { type: String, required: true },
     direccion: { type: String, uppercase: true },
-    precio: { type: Number, required: true },
+    precio: { type: String, required: true },
     puntuacion: { type: Number, required: true },
     loc: { type: [Number], index: { type: '2dsphere', sparse: true } },
     telefono: { type: String },
