@@ -27,7 +27,7 @@ API de hoteles construidos con Node.JS, Express.JS y MongoDB para ser utilizados
 ### Prerrequisitos
 
 - [Git](https://git-scm.com/)
-- [MongoDB](https://www.mongodb.org/) - Keep a running daemon with `mongod`
+- [MongoDB](https://www.mongodb.org/) - Mantenga el servicio de corriendo con `mongod`
 - [Node.js and npm](nodejs.org) Node >= 12 LTS
 
 ### Developing
@@ -36,7 +36,7 @@ API de hoteles construidos con Node.JS, Express.JS y MongoDB para ser utilizados
 
 2. Ejecutar el comando `mongod` en otra terminal para mantener el servicio de MongoDB ejecutándose .
 
-3. Documento de ejemplo en colección `Hoteles`.
+3. Documento de ejemplo `Hoteles`.
 ```json
 {
     "loc": [
@@ -69,11 +69,11 @@ API de hoteles construidos con Node.JS, Express.JS y MongoDB para ser utilizados
 
 3. Ejecutar el comando `npm run dev` para iniciar el servidor de desarrollo. It should automatically open the client in your browser when ready.
 
-4. Abrir el navegador y colocar la siguiente ruta `http://localhost:3000/hotel`.
+4. Abrir el navegador y colocar la siguiente ruta `http://localhost:5000/hotel`.
 
 ### Deployment
 
-Se utiliza la plataforma como servicio (PaaS), para el despliegue de [API](https://apihoteles.herokuapp.com) usando HEROKU CLI y sigiendo la guia [guide](https://devcenter.heroku.com/articles/getting-started-with-nodejs#deploy-the-app).
+Se utiliza la plataforma como servicio (PaaS), para el despliegue de [API](https://apihoteles.herokuapp.com) usando HEROKU CLI y sigiendo la guia [guia](https://devcenter.heroku.com/articles/getting-started-with-nodejs#deploy-the-app).
 
 ## License
 
